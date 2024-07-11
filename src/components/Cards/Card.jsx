@@ -1,19 +1,19 @@
-import React from "react"
+import { Link } from "react-router-dom";
 import "./styles.css"
 
-export default function Card() {
+
+export default function Card(props) {
+  const product = props.product
   return (
     <div className="frame-15">
       <div className="frame-8">
         <div className="frame-7">
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/qacjcp5evl-48%3A387?alt=media&token=7d42e160-76a0-401f-abb4-f186d6084745"
-            alt="Not Found"
-            className="img"
+            src={product.image} alt="Meu card"  className="img"
           />
-          <p className="titulo-_produto">
-            BOTA NOBUCK 3 GOMOS KADESH REF: 403GC
-          </p>
+         <Link to={`/products/${product.id}/${product.title}`} state={{ productInfo: product }}>
+          <p className="titulo-_produto"> {product.title} </p>
+          </Link>
         </div>
       </div>
     </div>

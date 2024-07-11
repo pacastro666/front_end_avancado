@@ -1,0 +1,31 @@
+{
+    "bottles": [
+        {
+            "id": 1,
+            "title": "BOTA NOBUCK 3 GOMOS KADESH REF: 403GC",            
+             "image": ["https://kadeshepi.com.br/wp-content/uploads/2022/09/403GC-frontal-kadesh-equipamentos-profissionais.jpg"]
+        },
+        {
+            "id": 2,
+            "title": "BOTA NOBUCK3 GOMOS KADESH REF: 403GP",            
+            "image": [
+                "https://kadeshepi.com.br/wp-content/uploads/2022/09/403GP-frontal-kadesh-equipamentos-profissionais.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "BOTA NOBUCK VELCRO KADESH REF: 4005P",            
+            "image": [
+                "https://kadeshepi.com.br/wp-content/uploads/2022/09/4005P-frontal-kadesh-equipamentos-profissionais.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "BOTA LATEGO KADESH ADVENTURE REF: 45LATMP",         
+            "image": [
+                "https://kadeshepi.com.br/wp-content/uploads/2023/10/45LATMP-frontal-kadesh-equipamentos-profissionais.jpg"
+            ]
+        }
+
+    ]
+}
