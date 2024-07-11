@@ -1,13 +1,15 @@
-import Header from "./components/navbar/Header"
-import BannerCentral from "./components/banners/Banner"
-import Footer from "./components/footer/Footer"
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from "./pages/Home"
 function App() {
 
 return (
     <>
-    <Header/>
-    <BannerCentral/>   
-    <Footer/>
+    <BrowserRouter>
+        <Routes>
+        <Route path='/' element={<Home/>}></Route>
+        </Routes>    
+    </BrowserRouter>
+   
     </>
 
 )
