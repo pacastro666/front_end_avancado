@@ -1,8 +1,9 @@
-# React + Vite
+#Este projeto tem como meta aprensetar um sistema simples criado em react + vite
+para obetencao da nota da Sprint: Desenvolvimento Front-end Avançado 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+o link do Prototipo foi desenvolvido em figma
+no endereco https://www.figma.com/design/SpzgFcbjxgF8lEA0vTax3m/Untitled?node-id=0-1&t=lN4uaOXtDeE0poVZ-1
 
-Currently, two official plugins are available:
+para rodar o projeto deve -se instalar todas as dependencias 
+com o comando npm install
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
