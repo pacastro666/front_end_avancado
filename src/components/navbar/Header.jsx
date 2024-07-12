@@ -5,6 +5,7 @@ export default function NavBar() {
   const navigate = useNavigate()
   return (
     <div className="header clip-contents">
+      
       <div className="navigation-pill-list">      
       <div className="navigation-pill-1">
           <button className='more-info' onClick={() => navigate('/')}>Home</button>

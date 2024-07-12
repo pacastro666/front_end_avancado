@@ -3,7 +3,6 @@ import NavBar from "../components/navbar/Header"
 import Footer from "../components/footer/Footer"
 import Card from "../components/Cards/Card"
 import products from "./Products.json"
-import Item from "../components/item/item"
 import "./ProductsStyles.css"
 
 export default function Products() {
