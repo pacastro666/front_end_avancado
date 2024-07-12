@@ -7,7 +7,7 @@ export default function Login() {
   const [password,setPassword]= useState("")
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log("submit",{email,password})
+    console.log({email,password})
 
   }
   return ( 
