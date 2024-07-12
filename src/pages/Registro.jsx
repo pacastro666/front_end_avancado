@@ -14,7 +14,7 @@ export default function registro() {
     <>
  <NavBar/>
          <div id="login">       
-          <h1 className="title"Login do sistema></h1>
+          <h2 className="title">Registro no sistema</h2>
             <form className="form" onSubmit={handleSubmit}>
             <div className="field">
               <label htmlFor="email">Email</label>
