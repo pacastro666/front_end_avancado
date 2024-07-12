@@ -14,10 +14,10 @@ export default function NavBar() {
         </div>
       </div>
         <div className="user">
-          <span>Usuário</span>
+          <span>Usuário:</span>
          </div>  
-          <button className="button-1">login</button> 
-          <button className="button-1">registro</button>  
+          <button className='button-2' onClick={()=>navigate('/login')}>login</button> 
+          <button className="button-2"  onClick={()=>navigate('/Registro')}>registro</button>  
     </div>
   )
 }

@@ -3,7 +3,7 @@ import NavBar from "../components/navbar/Header"
 import Footer from "../components/footer/Footer"
 import Card from "../components/Cards/Card"
 import products from "./Products.json"
-import "./ProductsStyles.css"
+import "./Index.css"
 
 export default function Products() {
   const [productList, setProductList] = useState([])
@@ -13,8 +13,7 @@ export default function Products() {
 
     useEffect(() => {
     setProductList(products.bottles)
-  }, []);
- 
+  }, []); 
   return (
     <>
    <NavBar/>

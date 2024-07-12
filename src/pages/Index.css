@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+
+p {
+  margin: 0;
+}
+
+.frame-51 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  width: 1440px;
+  height: 583px;
+  padding: 118px 149px 151px;
+  box-sizing: border-box;
+  background-color: rgba(217, 217, 217, 1);
+}
+.frame-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 9px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.group-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.email-cpf {
+  color: rgba(0, 0, 0, 1);
+  font-size: 16px;
+  line-height: 100%;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+}
+
+.rectangle-4214 {
+  width: 549px;
+  height: 49px;
+  border: 1px solid rgba(0, 0, 0, 1);
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.frame-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: fit-content;
+  padding: 10px 89px 10px 88px;
+  box-sizing: border-box;
+}
+.senha {
+  color: rgba(0, 0, 0, 1);
+  font-size: 16px;
+  line-height: 100%;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+}
+
+.rectangle-4217 {
+  width: 100%;
+  height: 49px;
+  border: 1px solid rgba(0, 0, 0, 1);
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.header-auth {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.button-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  height: 100%;
+  padding: 6px;
+  border: 1px solid rgba(249, 57, 57, 1);
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: rgba(249, 57, 57, 1);
+}
+.button {
+  color: rgba(245, 245, 245, 1);
+  font-size: 16px;
+  line-height: 100%;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+}
+
+.main-products {
+  width: 100%;
+  position: relative;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  box-sizing: border-box;
+  flex: 1;
+}
